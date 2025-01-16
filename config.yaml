@@ -1,0 +1,69 @@
+postgresql:
+  host: localhost
+  port: 5432
+  default_credentials:
+    - username: postgres
+      password: postgres
+    - username: admin
+      password: admin
+    - username: postgresql
+      password: postgresql
+
+mysql:
+  host: localhost
+  port: 3306
+  default_credentials:
+    - username: root
+      password: ""
+    - username: root
+      password: root
+    - username: admin
+      password: admin
+    - username: mysql
+      password: mysql
+
+mongodb:
+  host: localhost
+  port: 27017
+  default_credentials:
+    - username: admin
+      password: admin
+    - username: root
+      password: root
+    - username: mongodb
+      password: mongodb
+
+mssql:
+  host: localhost
+  port: 1433
+  default_credentials:
+    - username: sa
+      password: ""
+    - username: sa
+      password: sa
+    - username: admin
+      password: admin
+    - username: sqlserver
+      password: sqlserver
+
+oracle:
+  host: localhost
+  port: 1521
+  default_credentials:
+    - username: system
+      password: oracle
+    - username: sys
+      password: change_on_install
+    - username: scott
+      password: tiger
+    - username: admin
+      password: admin
+
+redis:
+  host: localhost
+  port: 6379
+  default_passwords:
+    - ""  # Empty password
+    - admin
+    - redis
+    - password123
